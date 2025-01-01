@@ -1,11 +1,19 @@
 [project]
 name = "xverse"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.0.5"
+description = "xverse short for X uniVerse is collection of transformers for feature engineering and feature selection"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
 readme = "README.md"
 authors = [
-    { name = "Prasanna", email = "prassee@prassee.me" }
+    { name = "Sundar Krishnan", email = "sundarstyles89@gmail.com" },
+    { name = "Prasanna", email = "prassee@prassee.me" },
 ]
+
 requires-python = ">=3.13"
 dependencies = [
     "matplotlib>=3.10.0",
@@ -21,6 +29,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [dependency-groups]
-dev = [
-    "ipykernel>=6.29.5",
-]
+dev = ["ipykernel>=6.29.5"]
+
+[project.urls]
+Homepage = "https://github.com/Sundar0989/XuniVerse"
