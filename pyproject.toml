@@ -1,0 +1,26 @@
+[project]
+name = "xverse"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Prasanna", email = "prassee@prassee.me" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.1",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.0",
+    "scipy>=1.14.1",
+    "statsmodels>=0.14.4",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]

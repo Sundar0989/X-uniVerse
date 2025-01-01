@@ -4,7 +4,7 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setuptools.setup(
-    name="xverse", # Replace with your own username
+    name="xverse",  # Replace with your own username
     version="1.0.5",
     author="Sundar Krishnan",
     author_email="sundarstyles89@gmail.com",
@@ -18,14 +18,14 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.5.*',
-    license='MIT',
+    python_requires=">=3.5.*",
+    license="MIT",
     install_requires=[
-      'numpy>=1.11.3',
-      'scikit-learn>=0.19.0',
-      'scipy>=0.19.0',
-      'statsmodels>=0.6.1',
-      'pandas>=0.21.1',
-      'matplotlib>=3.0.3'
-    ]
+        "numpy>=1.11.3",
+        "pandas>=0.21.1",
+        "statsmodels>=0.6.1",
+        "scikit-learn>=0.19.0",
+        "scipy>=0.19.0",
+        "matplotlib>=3.0.3",
+    ],
 )

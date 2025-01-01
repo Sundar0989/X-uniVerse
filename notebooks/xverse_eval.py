@@ -58,10 +58,10 @@ clf.woe_bins
 output_mono_bins = clf.mono_custom_binning  # future transformation
 output_mono_bins
 # %%
-X, y = prep_dataset()
-X, y
+# X, y = prep_dataset()
+# X, y
 
-# %%
-clf = VotingSelector()
-# %%
-clf.fit(X, y)
+# # %%
+# clf = VotingSelector()
+# # %%
+# clf.fit(X, y)
