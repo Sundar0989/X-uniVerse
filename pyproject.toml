@@ -1,6 +1,6 @@
 [project]
 name = "xverse"
-version = "1.0.5"
+version = "1.0.6"
 description = "xverse short for X uniVerse is collection of transformers for feature engineering and feature selection"
 classifiers = [
     "Programming Language :: Python :: 3",
